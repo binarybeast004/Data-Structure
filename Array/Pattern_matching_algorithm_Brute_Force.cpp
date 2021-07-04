@@ -13,7 +13,7 @@ if(p[1]!=s[j+i-1])
 {
 flag=false
 }
-if(flag=true)
+if(flag==true)
 {
 return i
 }
