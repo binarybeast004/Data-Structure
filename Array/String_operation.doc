@@ -1,1 +1,14 @@
 String_operation
+  +lenght(string)
+  +substring(string,initial,length)
+  +concatenation
+  +indexing(text,pattern)
+  
+String_processing
+  +Insert(text,position,string)
+  +Delete(text,position,length)
+  +Replace(text,pattern,pattern2)
+  
+Exampale:
+  Delete("ABCDEFGHI",4,2)="ABCEFGHI"
+                         ='ABC' || 'FGHI'
