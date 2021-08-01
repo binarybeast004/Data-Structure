@@ -1,13 +1,15 @@
 #include<iostream>
 using namespace std;
 int main() {
-// insertion
+// array declareation
 int n = 10;
 int a[n] = { 10, 20, 30, 40, 50 };
 cout << "initial array\n";
 for(int i=0; i<n; i++) {
 cout << a[i] << " ";
 }
+
+//Insertion
 cout << "\n";
 int sz = 5, pos = 2, value = 99;
 for(int i=sz; i>pos; i--) {
